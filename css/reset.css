@@ -12,3 +12,9 @@
 html{
     font-family: 'Roboto', sans-serif;
 }
+
+:root {
+    --main-color: #0084FD;
+    
+    --main-space-size: 20px;
+}

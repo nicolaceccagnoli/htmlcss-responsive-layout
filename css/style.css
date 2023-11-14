@@ -7,6 +7,43 @@
 .container{
     margin: 0 auto;
     max-width: 1000px;
+    padding: 0 var(--main-space-size);
+}
+/* 
+    HEADER 
+*/
+
+header {
+    background-color: var(--main-color);
+    color: white;
+}
+
+#main-nav-container {
+    display: flex;
+    justify-content: space-between;
+    padding: var(--main-space-size);
+}
+
+#main-nav-container nav {
+    display: none;
+}
+
+#main-nav-container nav li {
+    display: inline-block;
+}
+
+#main-nav-container nav li a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+}
+
+/* 
+    MAIN
+*/
+
+main > section {
+    padding: calc(var(--main-space-size) * 2) 0;
 }
 
 /* 
@@ -19,5 +56,12 @@
 
 /* Desktop */
 @media screen and (min-width: 992px) {
-    
+
+    #main-nav-container .hamburger-icon {
+        display: none;
+    }
+
+    #main-nav-container nav {
+        display: block;
+    }
 }
