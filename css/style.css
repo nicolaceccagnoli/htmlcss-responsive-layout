@@ -23,6 +23,7 @@
     margin-right: 10px;
     margin-bottom: 10px;
     padding: 10px;
+    border-radius: 15px;
 }
 
 .bg-main {
@@ -95,9 +96,27 @@ header {
 /* 
     MAIN
 */
-
 main > section {
     padding: calc(var(--main-space-size) * 2) 0;
+}
+
+main > section .fa-solid {
+    font-size: 5em;
+}
+
+main > section h3 {
+    font-size: 2em;
+}
+
+main > section .fa-solid, main > section h3{
+    color: var(--main-color);
+    padding: 10px 0;
+}
+
+main > section p {
+    line-height: 1.8em;
+    padding: 10px 0;
+    margin-bottom: 20px;
 }
 
 /* 
@@ -105,17 +124,9 @@ main > section {
 */
 .card-left {
     text-align: left;
-}
-.card-left h3 {
-    color: var(--main-color);
-    padding: 10px 0;
+    padding: 20px;
 }
 
-.card-left p {
-    line-height: 1.8em;
-    padding: 10px 0;
-    margin-bottom: 20px;
-}
 
 .card-left a {
     text-decoration: none;
@@ -150,6 +161,7 @@ footer {
 /* 
     REPONSIVE
 */
+
 /* Tablet */
 @media screen and (min-width: 768px) {
 
