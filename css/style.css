@@ -66,14 +66,29 @@ header {
     display: none;
 }
 
+.hamburger-icon {
+    position: relative;
+    top: 10px;
+}
+
 #main-nav-container nav li {
     display: inline-block;
+    position: relative;
+    top: 4px;
 }
 
 #main-nav-container nav li a {
     display: inline-block;
     text-decoration: none;
     color: white;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+#main-nav-container nav li:last-of-type a {
+    color: black;
+    border-radius: 10px;
+    padding: 8px;
 }
 
 /* 
@@ -161,5 +176,4 @@ footer {
     .my-col-desktop-80 {
         width: calc(80% - 20px);
     }
-
 }
