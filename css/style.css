@@ -31,6 +31,18 @@
 .bg-main-light  {
     background-color: var(--main-light-color);
 }
+
+.bg-purple{
+    background-color: var(--secondary-light-color);
+}
+
+.padding-20 {
+    padding: var(--main-space-size);
+}
+
+.text-center {
+    text-align: center;
+}
 /* 
     HEADER 
 */
@@ -67,9 +79,6 @@ main > section {
     padding: calc(var(--main-space-size) * 2) 0;
 }
 
-section:nth-of-type(even){
-    background-color: var(--secondary-light-color);
-}
 
 /* 
     SEZIONE 2
@@ -97,6 +106,10 @@ main section .container .card .my-col {
         width: calc(((100% / 3) * 2) - 20px);
     }
 
+    #testimonials {
+        display: flex;
+        justify-content: space-between;
+    }
 }
 
 /* Desktop */
@@ -110,8 +123,9 @@ main section .container .card .my-col {
         display: block;
     }
 
-    .card {
+    .main-cards {
         display: flex;
+        align-items: end;
     }
 
 }
