@@ -16,6 +16,7 @@ html{
 :root {
     --main-color: #0084FD;
     --main-light-color: #B5DDFF;
+    --secondary-light-color: #9792E4;
     
     --main-space-size: 20px;
 }

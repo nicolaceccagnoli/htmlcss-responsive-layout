@@ -42,7 +42,7 @@ header {
 #main-nav-container {
     display: flex;
     justify-content: space-between;
-    padding: var(--main-space-size);
+    padding: var(--main-space-size) 0;
 }
 
 #main-nav-container nav {
@@ -67,6 +67,17 @@ main > section {
     padding: calc(var(--main-space-size) * 2) 0;
 }
 
+section:nth-of-type(even){
+    background-color: var(--secondary-light-color);
+}
+
+/* 
+    SEZIONE 2
+*/
+
+.section > .container  .card  .my-col {
+    margin-left: 0;
+}
 
 /* 
     REPONSIVE
