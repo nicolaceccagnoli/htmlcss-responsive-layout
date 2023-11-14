@@ -22,6 +22,7 @@
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 10px;
+    padding: 10px;
 }
 
 .bg-main {
@@ -34,6 +35,10 @@
 
 .bg-purple{
     background-color: var(--secondary-light-color);
+}
+
+.bg-white {
+    background-color: white;
 }
 
 .padding-20 {
@@ -88,9 +93,9 @@ main section .container .card .my-col {
     margin-left: 0;
 }
 
-.bg-white {
-    background-color: white;
-}
+/* 
+    SEZIONE 4
+*/
 
 /* 
     REPONSIVE
@@ -102,6 +107,10 @@ main section .container .card .my-col {
         width: calc((100% / 3) - 20px);
     }
 
+    .my-col-tablet-50 {
+        width: calc(50% - 20px);
+    }
+
     .my-col-tablet-66 {
         width: calc(((100% / 3) * 2) - 20px);
     }
@@ -110,6 +119,7 @@ main section .container .card .my-col {
         display: flex;
         justify-content: space-between;
     }
+
 }
 
 /* Desktop */
@@ -128,4 +138,7 @@ main section .container .card .my-col {
         align-items: end;
     }
 
+    .my-col-desktop-33 {
+        width: calc((100% / 3) - 20px);
+    }
 }
