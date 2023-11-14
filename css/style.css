@@ -94,9 +94,13 @@ main section .container .card .my-col {
 }
 
 /* 
-    SEZIONE 4
+    FOOTER
 */
 
+footer {
+    background-color: #333333;
+    color: white;
+}
 /* 
     REPONSIVE
 */
