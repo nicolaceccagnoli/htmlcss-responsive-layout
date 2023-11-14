@@ -49,6 +49,7 @@
 .text-center {
     text-align: center;
 }
+
 /* 
     HEADER 
 */
@@ -150,6 +151,19 @@ main section .container .card .my-col {
     margin-left: 0;
 }
 
+section:nth-of-type(2) .my-col img {
+    height: 250px;
+    object-fit: cover;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+section:nth-of-type(2) .my-col h2, section:nth-of-type(2) .my-col p {
+    color: white;
+    padding-top: 50px;
+}
+
 /* 
     FOOTER
 */
@@ -223,4 +237,10 @@ footer {
     .my-col-desktop-80 {
         width: calc(80% - 20px);
     }
+
+    .no-margin {
+        position: relative;
+        transform: translateY(40px);
+    }
+    
 }
