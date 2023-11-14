@@ -75,8 +75,12 @@ section:nth-of-type(even){
     SEZIONE 2
 */
 
-.section > .container  .card  .my-col {
+main section .container .card .my-col {
     margin-left: 0;
+}
+
+.bg-white {
+    background-color: white;
 }
 
 /* 
@@ -104,6 +108,10 @@ section:nth-of-type(even){
 
     #main-nav-container nav {
         display: block;
+    }
+
+    .card {
+        display: flex;
     }
 
 }
