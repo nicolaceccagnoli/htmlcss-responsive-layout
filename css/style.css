@@ -415,6 +415,10 @@ footer p {
         left: 0;
     }
 
+    .testimonial-img .testimonial-quote {
+        right: -30px;
+    }
+
     .about-us-info h4 {
         font-weight: bold;
         line-height: 1.5em;
