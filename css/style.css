@@ -249,6 +249,46 @@ section:nth-of-type(4) h3 {
 }
 
 /* 
+    SEZIONE 5
+*/
+
+.testimonial-img {
+    width: 150px;
+    height: 150px;
+    position: relative;
+}
+
+.testimonial-img img {
+    position: absolute;
+    left: 0;
+}
+
+.testimonial-img i {
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    z-index: 1;
+}
+
+.about-us-info {
+    position: relative;
+    top: 10%;
+}
+.testimonial-button {
+    width: 35%;
+    padding: 6px 6px;
+    margin-top: 15px;
+    display: flex;
+    color: white;
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+.fa-linkedin {
+    padding-right: 4px;
+}
+
+/* 
     FOOTER
 */
 
@@ -298,6 +338,11 @@ footer {
         flex-grow: 1;
         text-align: left;
         padding: 20px;
+    }
+
+    .testimonial-button {
+        padding: 10px;
+        width: 80%;
     }
 
 }
