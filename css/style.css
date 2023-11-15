@@ -395,6 +395,8 @@ footer p {
         flex-shrink: 0;
         margin-bottom: 0;
         padding: 20px;
+        width: 150px;
+        height: 150px;
     }
 
     .info {
