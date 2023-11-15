@@ -303,6 +303,28 @@ section:nth-of-type(4) h3 {
 }
 
 /* 
+    SEZIONE 6
+*/
+
+section:last-of-type h6 {
+    font-weight: 100;
+    color: #D1D0F3;
+}
+
+section:last-of-type h3 {
+    color: white;
+}
+
+section:last-of-type h2{
+    color: #FDC05F;
+    font-size: 4em;
+}
+
+section:last-of-type p {
+    color: white;
+}
+
+/* 
     FOOTER
 */
 
