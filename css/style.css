@@ -308,7 +308,7 @@ section:nth-of-type(4) h3 {
 
 section:last-of-type h6 {
     font-weight: 100;
-    color: #D1D0F3;
+    color: var(--footer-light-color);
 }
 
 section:last-of-type h3 {
@@ -322,7 +322,7 @@ section:last-of-type h2{
 }
 
 section:last-of-type p {
-    color: #D1D0F3;
+    color: var(--footer-light-color);
 }
 
 section:last-of-type .bg-white {
@@ -348,6 +348,16 @@ footer {
     background-color: #333333;
     color: white;
 }
+
+footer p {
+    padding: 36px 12px;
+    color: white;
+}
+
+.footer-bottom {
+    padding-bottom: 48px;
+}
+
 /* 
     REPONSIVE
 */
