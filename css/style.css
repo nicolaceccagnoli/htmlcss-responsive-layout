@@ -295,6 +295,7 @@ section:nth-of-type(4) h3 {
     color: white;
     text-decoration: none;
     border-radius: 15px;
+    margin-bottom: 50px;
 }
 
 .fa-linkedin {
