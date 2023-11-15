@@ -252,15 +252,18 @@ section:nth-of-type(4) h3 {
     SEZIONE 5
 */
 
+.testimonial-col{
+    display: flex;
+    flex-direction: column;
+}
+
 .testimonial-img {
-    width: 150px;
-    height: 150px;
     position: relative;
+    margin-left: 0;
 }
 
 .testimonial-img img {
     position: absolute;
-    left: 0;
 }
 
 .testimonial-img .testimonial-quote {
@@ -274,12 +277,13 @@ section:nth-of-type(4) h3 {
 .about-us-info {
     position: relative;
     top: 10%;
-    height: 50%;
+    text-align: left;
 }
 
 .about-us-info h4 {
     font-weight: bold;
     line-height: 1.5em;
+    font-size: 42px ;
 }
 
 .testimonial-button {
@@ -356,6 +360,16 @@ footer {
         width: 50%;
     }
 
+    .testimonial-img {
+        left: 0;
+    }
+
+    .about-us-info h4 {
+        font-weight: bold;
+        line-height: 1.5em;
+        font-size: 16px ;
+    }
+    
 }
 
 /* Desktop */
