@@ -287,9 +287,9 @@ section:nth-of-type(4) h3 {
 }
 
 .testimonial-button {
-    font-size: 15px;
+    font-size: 9px;
     width: 30%;
-    padding: 6px 0 6px 24px;
+    padding: 6px 0 6px 12px;
     margin-top: 15px;
     display: flex;
     color: white;
@@ -312,6 +312,7 @@ section:last-of-type h6 {
 }
 
 section:last-of-type h3 {
+    font-size: 36px;
     color: white;
 }
 
@@ -321,9 +322,24 @@ section:last-of-type h2{
 }
 
 section:last-of-type p {
-    color: white;
+    color: #D1D0F3;
 }
 
+section:last-of-type .bg-white {
+    text-decoration: none;
+    padding: 16px 32px;
+    color: var(--secondary-light-color);
+    border-radius: 18px;
+}   
+
+section:last-of-type h6:last-of-type {
+    margin-top: 36px;
+}
+
+.privacy {
+    padding: 0;
+    color: white;
+}
 /* 
     FOOTER
 */
