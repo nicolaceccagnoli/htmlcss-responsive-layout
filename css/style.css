@@ -263,11 +263,12 @@ section:nth-of-type(4) h3 {
     left: 0;
 }
 
-.testimonial-img i {
+.testimonial-img .testimonial-quote {
     position: absolute;
-    top: -20px;
-    right: -20px;
+    top: -10px;
+    right: -10px;
     z-index: 1;
+    font-size: 4em;
 }
 
 .about-us-info {
@@ -275,8 +276,9 @@ section:nth-of-type(4) h3 {
     top: 10%;
 }
 .testimonial-button {
-    width: 35%;
-    padding: 6px 6px;
+    font-size: 15px;
+    width: 30%;
+    padding: 6px 0 6px 24px;
     margin-top: 15px;
     display: flex;
     color: white;
@@ -286,6 +288,7 @@ section:nth-of-type(4) h3 {
 
 .fa-linkedin {
     padding-right: 4px;
+    transform: translateY(1px);
 }
 
 /* 
@@ -341,8 +344,9 @@ footer {
     }
 
     .testimonial-button {
-        padding: 10px;
-        width: 80%;
+        font-size: 10px;
+        padding: 6px 0 6px 12px;
+        width: 50%;
     }
 
 }
@@ -396,4 +400,10 @@ footer {
     .my-row .card-right {
         width: 40%;
     }
+
+    .testimonial-button {
+        font-size: 6px;
+        padding: 6px 0 6px 8px;
+    }
+
 }
