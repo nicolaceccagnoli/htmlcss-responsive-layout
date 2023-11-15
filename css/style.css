@@ -38,6 +38,10 @@
     background-color: var(--secondary-light-color);
 }
 
+#color-purple {
+    color: var(--secondary-light-color);
+}
+
 .bg-white {
     background-color: white;
 }
@@ -48,6 +52,10 @@
 
 .text-center {
     text-align: center;
+}
+
+h4 {
+    font-weight: 100;
 }
 
 /* 
@@ -127,7 +135,6 @@ main > section p {
     text-align: left;
     padding: 20px;
 }
-
 
 .card-left a {
     text-decoration: none;
@@ -237,6 +244,7 @@ footer {
     .main-cards {
         display: flex;
         align-items: end;
+        padding: 0 80px;
     }
 
     .my-col-desktop-20 {
@@ -262,5 +270,13 @@ footer {
     .card-right img {
         position: relative;
         bottom: -23px;    
+    }
+
+    .my-row .card-left {
+        width: 60%;
+    }
+
+    .my-row .card-right {
+        width: 40%;
     }
 }
